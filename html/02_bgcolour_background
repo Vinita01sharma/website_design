@@ -1,0 +1,16 @@
+<html>
+
+<head>
+    <title> background colour</title>
+</head>
+
+   <!--bgcolour is droped from html5 version-->
+   <!-- ctrl + / -->
+
+   <!-- <body bgcolour = 'red' >-->
+
+    <body>  background = "img.1.jpeg">
+        This is my first program
+    </body>
+    
+</html>
