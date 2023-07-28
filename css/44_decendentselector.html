@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: auto;
+            width: 250px;
+            padding: 20px;
+            border: 2px solid black;
+            margin: 10px;
+        }
+        .div1{
+            background-color: bisque;
+        }
+        .div2{
+            background-color: skyblue;
+        }
+        /* parent child */
+        .div1 .mypara{
+            color: red;
+            font-size: 18px;
+        }
+        .div1 .mypara b{
+            color: black;
+        }
+        .div2 .mypara{
+            color: blue;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <p class="mypara">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nulla debitis dolor doloribus perspiciatis veniam alias atque soluta eaque architecto, possimus aperiam quo optio magnam aut deserunt modi voluptate blanditiis?
+            <b>Hello</b>
+        </p>
+    </div>
+    <div class="div2">
+        <p class="mypara">
+Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores fugit esse ratione, itaque iste consectetur harum tempora amet error accusantium delectus ea nobis aut enim quis officia. Dicta, reiciendis ut.
+        </p>
+    </div>
+</body>
+</html>

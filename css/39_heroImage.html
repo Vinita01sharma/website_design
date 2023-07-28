@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hero Image Example</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        *{margin: 0;
+
+        }
+        img{
+            height: 750px;
+            width: 100%;
+        }
+        .HeroImage{
+            position: relative;
+        }
+        .text{
+            position: absolute;
+            top: 280px;
+            width: 100%;
+            text-align: center;
+            /* background-color: black; */
+        }
+        .title{
+            font-size: 60px;
+            text-transform: uppercase;
+            font-weight: 400;
+        }
+        .sm-text{
+            letter-spacing: 2px;
+            font-size: 17px;
+            padding-bottom: 30px;
+        }
+        .divide{
+            height: 3px;
+            /* width: 200px; */
+            margin:40px  auto;
+        }
+        button{
+            height: 40px;
+            width: 200px;
+            background-color: rgba(255, 255, 255, 0.192);
+            margin: 40px auto;
+        }
+        i{
+            font-size: 19px;
+        }
+    </style>
+</head>
+<body>
+    <div class="HeroImage">
+        <div class="image">
+            <img src="images/imgm.jpeg" alt="">
+        </div> 
+        <div class="text">
+            <h1 class="title">This shouldn't be so difficult</h1>
+            <div class="divide">
+                <p class="sm-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                </p>
+                <button>Click Here
+                    <i class="fa-solid fa-caret-up"></i>
+                </button>
+            </div>
+        </div>
+</body>
+</html>
