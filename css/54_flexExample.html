@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .FlexEx{
+            /* background-color: brown; */
+        }
+        .flex-m{
+            margin: 0px 50px;
+        }
+        .flex-p{
+            padding: 50px 0px;
+        }
+        .flexbox{
+            display: flex;
+        }
+        .left-side{
+            background-color: teal;
+            flex: 1;
+            display: flex;
+            align-items: center;
+            padding: 0px 30px;
+        }
+        .left-side h1{
+            font-size: 40px;
+            color: beige;
+            padding-bottom: 30px;
+            text-transform: capitalize;
+        }
+        .left-side p{
+            color: beige;
+            letter-spacing: 1px;
+            line-height: 30px;
+        }
+        .right-side{
+            flex: 1;
+        }
+        .right-side img{
+            height: auto;
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <section class="FlexEx">
+        <div class="flex-m">
+            <div class="flex-p">
+                <div class="flexbox">
+                    <div class="left-side">
+                        <div>
+                            <h1>100% pure butter cookies</h1>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo vitae magni hic et architecto, repudiandae velit totam consectetur molestiae explicabo eveniet eius suscipit dolorem vel earum culpa pariatur libero sit.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="right-side">
+                        <img src="images/c.img" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
