@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+        }
+        .mydiv{
+            height: 300px;
+            width: 300px;
+            border: 2px solid black;
+            margin :200px auto;
+            display: grid;
+            place-content: center;
+            overflow: hidden;
+        }
+        .lm{
+            height: 10px;
+            width: 150px;
+            background-color: tomato;
+            /* transform: translate(-230px); */
+            animation: l-m 5s linear infinite;
+        }
+        @keyframes l-m {
+            from{
+                transform: translate(-230px);
+            }
+            to{
+                transform: translate(230px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="mydiv">
+        <h3>Loading....</h3>
+        <div class="lm"></div>
+    </div>
+</body>
+</html>
