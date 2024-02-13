@@ -1,0 +1,37 @@
+what is javascript 
+=> javascript is a light weight, cross-platforf and interpreted compiled programming language which is also known as the scripiting language for webpages.
+
+=> it is also known as object-based scripiting language.
+
+=> it is well-known for the development of web pages, many non-browser environments also use it.
+
+=> in 1993, Mosaic , the first popular web browser came into existence. In the year 1994, Netscape was founded by Marc Andreesen.
+
+=>Javascript firt name was livescript.
+
+=> due trademark and other reason livescript was renamed as javascript.
+
+=> Pure Javascript code is also known as vanila javascript.
+
+=>Javascript is used to create interactive websites. It is mainly used for:
+-Clinet side validation
+-Dynamic drop-down menus
+-Displaying date and time
+-Displaying pop-up windows and dialog boxes (like an alert dialog box, confirm dialog box and prompt dialog box)
+-Displaying clocks etc.
+
+=> It is written in < script > tag.
+
+=>< script > tag is written in between < head > or < body > tag.
+
+Example:-
+< script > 
+       document.write("hello javascript by javascript");
+< /script >
+
+=> where a document object represnts the HTML documnet that is displayed in that window.write() is a function to display your content.
+
+=>There are three ways to add javascript in file:-
+(1)Inline -add using event
+(2)Internal -in < script > tag in < body > or < head > tag
+(3)External -create new file using javascript extension and add with < script > tag in html file.

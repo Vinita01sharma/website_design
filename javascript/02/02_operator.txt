@@ -1,0 +1,51 @@
+operator means to operate your data
+
+Aritmetic Operators:-
+
+operator                          Description
++                                     Addition
+-                                     subtraction
+*                                     multiplication
+/                                      division
+%                                      modules
+++                                     Increment
+--                                     Decrement
+
+
+Assignment Operators:-
+
+operator                          Description
+=                                  assign
++=                              add and assign
+-=                             subtract and assign
+*=                             multiply and assign
+/=                             division and assign
+%=                             modules and assign
+
+
+Comparision Operators:-
+
+operator                          Description
+<                                less than
+>                                greater than
+<=                              less than equal to
+>=                             greater than equal to
+==                                  equal to
+!=                              not equal to
+===                           identical equal to
+!==                         not identical equal to
+
+Logical Operators:-
+
+operator                          Description
+&&                                Logical and
+||                                Logical or
+!                                 Logical not
+
+Bitwise Operators:-
+
+operator                          Description
+&                               Bitwise and
+|                               Bitwise or
+^                               Bitwise Xor
+~                               Bitwise not
