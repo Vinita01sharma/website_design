@@ -1,0 +1,20 @@
+A function is a set of statements that perform's a task or calculates value
+there is two type of function
+(1)predefine / built-in
+for ex, write(), writeln(), log()
+
+(2)user define
+created by user
+syntax for create a function
+        without parameter :
+        function function_name(){
+            statements;
+        }
+
+        with parameter :
+        function function_name(param1, param2,...,paramN){
+            statements
+        }
+    
+valid name = myfunc(), MyFunc(), My_Func(), myfunc1()
+invalid name = 1myfunc(), 1_myfunc(), my func()
