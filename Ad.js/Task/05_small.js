@@ -8,8 +8,3 @@ for (let i = 0; i < small.length; i++) {
     }
 }
 console.log(s);
-
-
-
-
-
