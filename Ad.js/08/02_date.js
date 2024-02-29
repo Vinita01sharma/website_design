@@ -1,4 +1,4 @@
-let today = new Date();
+let today = new Date("2024-02-25");
 // console.log("-----------  today----------->", today);
 let hr = today.getHours();
 // console.log("-----------  hr----------->", hr);
