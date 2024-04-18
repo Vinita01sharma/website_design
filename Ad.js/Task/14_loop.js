@@ -3,6 +3,8 @@
 // is prime number or not => video
 // pelendrom string  or not => video 
 
+// learn math method 
+
 
 
 // Output: "01010"
